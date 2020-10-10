@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% for post in posts %}
+<div class="container-cards">
+  <div class="cards">
+      <h1>{{ post.name }}</h1>
+      <p class="body">By {{ post.source }}, on {{ post.competetion_date }}</p>
+      <p class="info">{{ post.info }}</p>
+      <a href="#">Read More</a>
+  </div>
+</div>
+{% endfor %}
+{% endblock %}

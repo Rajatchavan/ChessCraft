@@ -1,0 +1,31 @@
+.fields {
+  font-family: 'Noto Sans JP',sans-serif;
+  max-width: 500px;
+  margin: 2rem auto;
+  border: 2px solid #148F77;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.form-group label, input, textarea {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px 5px;
+}
+
+.submit-btn {
+  border: 0px;
+  border-radius: 10px;
+  padding: 0.2rem;
+  margin: 1rem 0;
+  width: auto;
+  text-transform: uppercase;
+}
+
+.sign-in-link {
+  color: #000000;
+  font-size: 15px;
+  font-weight: bold;
+}
